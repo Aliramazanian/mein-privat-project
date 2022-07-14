@@ -26,3 +26,17 @@ li {
   margin: 20px;
   padding: 20px;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.lable {
+  margin-top: 20px;
+}
+
+input,
+.input {
+  width: 50%;
+}
