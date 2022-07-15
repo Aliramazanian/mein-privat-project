@@ -40,3 +40,14 @@ input,
 .input {
   width: 50%;
 }
+
+footer:hover {
+  background-color: yellowgreen;
+  color: black;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: darksalmon;
+  color: white;
+}
