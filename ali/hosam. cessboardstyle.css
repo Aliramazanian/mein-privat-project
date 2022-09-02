@@ -1,0 +1,57 @@
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,9,121,1) 5%, rgba(0,212,255,1) 100%);
+}
+
+.board {
+  width: 675px;
+  height: 639px;
+  border: 3px solid black;
+  margin: auto;
+  background-color: lightgray;
+  background-image: url(./img/wood.jpg);
+}
+
+h1 {
+  text-align: center;
+}
+
+.first :nth-child(odd) {
+  background-color: black;
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.first :nth-child(even) {
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.second :nth-child(odd) {
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.second :nth-child(even) {
+  background-color: black;
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.first,
+.second {
+  width: 680px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+}

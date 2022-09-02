@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  background-color: yellow;
+}
+
+.grid-itemes1 {
+  height: 200px;
+  background-color: aqua;
+}
+.grid-itemes2 {
+  height: 200px;
+  background-color: rgb(6, 7, 7);
+}
+.grid-itemes3 {
+  height: 200px;
+  background-color: rgb(4, 255, 0);
+}
+.grid-itemes4 {
+  height: 200px;
+  background-color: rgb(68, 0, 255);
+}
+.grid-itemes5 {
+  height: 200px;
+  background-color: rgb(255, 0, 102);
+}
+@media screen and (max-with:1300px) {
+  
+}

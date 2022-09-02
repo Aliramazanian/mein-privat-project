@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "../scssTraning"
+	},
+	{
+		"path": "../../Desktop/testscss/test"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "scssTraning",
+    "liveServer.settings.port": 5501
+  }
+}
