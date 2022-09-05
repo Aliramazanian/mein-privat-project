@@ -1,0 +1,15 @@
+.countries {
+  margin: 5% auto;
+  width: 80%;
+  text-align: center;
+  border: 5px solid black;
+}
+.countries,
+th,
+td {
+  border: 1px solid gray;
+}
+
+th[scope="col"] {
+  background-color: lightblue;
+}
