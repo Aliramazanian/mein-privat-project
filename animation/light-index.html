@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iphone index</title>
+    <link rel="stylesheet" href="light-style.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="bulb">
+        <div class="filamnet"></div>
+    </div>
+
+</div>
+<div class="floor">
+    
+    <div class="shadow">
+        <p class="text" style="color: rgb(0, 0, 0);">
+            
+        my name is ali.
+        <br>
+        i studied economic.
+        <br>
+        i am a journalist and
+        <br>
+        economic's reporter
+        i am learning programming and
+        webdesignin at dci
+        <br>
+        i am learning html,
+        <br> css and javascript.
+        <br>
+        </p>
+    
+    </div>
+</div>
+
+<script>
+    const shadow = document.querySelector(".shadow")
+    const text = document.querySelector(".text")
+    const light = document.querySelector(".bulb")
+    const filamnet = document.querySelector(".filament")
+    light.addEventListener("click", function()
+    {
+        light.classList.toggle("off");
+        shadow.classList.toggle("off");
+        filamnet.classList.toggle("off");
+        text.classList.toggle("off");
+    }
+    )
+
+</script>
+</body>
+</html>
